@@ -1,0 +1,45 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# dotenv
+.env
+.env.*
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Editor directories and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Testing
+.pytest_cache/
+htmlcov/
+
+# Cache and temporary files
+.cache/
+*.log
+__MACOSX/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Hugging Face / Transformers caches
+transformers_cache/
+huggingface_hub/
+datasets/
+
+# Qdrant local storage (if applicable)
+qdrant_storage/
